@@ -1,0 +1,19 @@
+<html ng-app="myApp">
+
+  <head>
+    <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script src="https://code.angularjs.org/1.4.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <ul class="nav nav-pills">
+      <li><a ui-sref="view1">View1</a></li>
+      <li><a ui-sref="view2">View2</a></li>
+    </ul>
+     <div ui-view></div>
+  </body>
+
+</html>
